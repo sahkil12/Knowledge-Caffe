@@ -1,16 +1,19 @@
-
-import './App.css'
-import Blogs from './assets/Components/Blogs.jsc/Blogs'
-import Header from './assets/Components/Header/Header'
+import "./App.css";
+import Blogs from "./assets/Components/Blogs.jsc/Blogs";
+import Bookmarks from "./assets/Components/Bookmarks/Bookmarks";
+import Header from "./assets/Components/Header/Header";
 
 function App() {
-
   return (
-    <>   
-     <Header></Header>
-     <Blogs></Blogs>
-    </>
-  )
+    <div className="w-[95%] mx-auto">
+      <Header></Header>
+
+      <div className="md:flex">
+        <Blogs></Blogs>
+        <Bookmarks></Bookmarks>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
