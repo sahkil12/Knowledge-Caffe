@@ -3,6 +3,7 @@ import {  FaBookmark} from 'react-icons/fa';
 const Blog = ({ blog, handleAddToBookmark, handleAddReadingTime }) => {
 
   const {
+    id,
     author,
     cover,
     excerpt,
@@ -34,14 +35,14 @@ const Blog = ({ blog, handleAddToBookmark, handleAddReadingTime }) => {
           </button>
         </div>
       </div>
-      <h2 className="text-3xl md:text-5xl/relaxed font-bold ">{excerpt} </h2>
+      <h2 className="text-3xl md:text-4xl/relaxed font-bold ">{excerpt} </h2>
       <div className="flex gap-3 text-xl font-medium text-[#414141de] my-3">
         <h4 className="space-x-5">{hashtags[0]} </h4>
         <h4 className="space-x-5">{hashtags[1]} </h4>
         <h4 className="space-x-5">{hashtags[2]} </h4>
       </div>
 
-      <span onClick={()=>handleAddReadingTime(reading_time)} className="text-blue-700 text-xl font-bold "><button className='underline'>Mark as read</button></span>
+      <span onClick={()=>handleAddReadingTime(reading_time, id)} className="text-blue-700 text-xl font-bold "><button className='underline'>Mark as read</button></span>
     </div>
   );
 };
