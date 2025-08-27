@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "cover": "https://picsum.photos/600/400?random=21",
+    "cover": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
     "title": "Getting Started with React",
     "author": "Alice Johnson",
     "author_img": "https://i.pravatar.cc/150?img=21",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "cover": "https://picsum.photos/600/400?random=22",
+    "cover": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     "title": "Understanding Async/Await in JavaScript",
     "author": "Mark Robinson",
     "author_img": "https://i.pravatar.cc/150?img=22",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "cover": "https://picsum.photos/600/400?random=23",
+    "cover": "https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     "title": "CSS Tricks for Modern Layouts",
     "author": "Emily Carter",
     "author_img": "https://i.pravatar.cc/150?img=23",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "cover": "https://picsum.photos/600/400?random=24",
+    "cover": "https://images.unsplash.com/photo-1556761175-4b46a572b786",
     "title": "Why TypeScript is Worth Learning",
     "author": "David Kim",
     "author_img": "https://i.pravatar.cc/150?img=24",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "cover": "https://picsum.photos/600/400?random=25",
+    "cover": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     "title": "Boost Your Productivity as a Developer",
     "author": "Sophia Brown",
     "author_img": "https://i.pravatar.cc/150?img=25",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "cover": "https://picsum.photos/600/400?random=26",
+    "cover": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
     "title": "Exploring the World of JAMstack",
     "author": "Michael Green",
     "author_img": "https://i.pravatar.cc/150?img=26",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "cover": "https://picsum.photos/600/400?random=27",
+    "cover": "https://images.unsplash.com/photo-1521791136064-7986c2920216",
     "title": "Top 10 VS Code Extensions for Developers",
     "author": "Rachel Adams",
     "author_img": "https://i.pravatar.cc/150?img=27",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "cover": "https://picsum.photos/600/400?random=28",
+    "cover": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
     "title": "How to Build Accessible Websites",
     "author": "Carlos Rivera",
     "author_img": "https://i.pravatar.cc/150?img=28",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "cover": "https://picsum.photos/600/400?random=29",
+    "cover": "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     "title": "Serverless: The Future of Backend",
     "author": "Hannah Lee",
     "author_img": "https://i.pravatar.cc/150?img=29",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "cover": "https://picsum.photos/600/400?random=30",
+    "cover": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     "title": "AI Tools Every Developer Should Try",
     "author": "Omar Ali",
     "author_img": "https://i.pravatar.cc/150?img=30",

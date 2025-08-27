@@ -15,8 +15,8 @@ const Blogs = () => {
     },[])
 
     return (
-        <div className="flex-5">
-            <h1 className="text-3xl">Blogs {blogs.length}</h1>
+        <div className="flex-7">
+            {/* <h1 className="text-3xl">Blogs {blogs.length}</h1> */}
             {
                 blogs.map(blog => <Blog 
                     key={blog.id}

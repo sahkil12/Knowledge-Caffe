@@ -5,10 +5,10 @@ import Header from "./assets/Components/Header/Header";
 
 function App() {
   return (
-    <div className="w-[95%] mx-auto">
+    <div className="md:w-[80%] mx-auto">
       <Header></Header>
 
-      <div className="md:flex">
+      <div className="md:flex gap-8 p-5">
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
