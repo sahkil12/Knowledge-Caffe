@@ -1,7 +1,7 @@
 import {  FaBookmark} from 'react-icons/fa';
 
-const Blog = ({ blog }) => {
-  console.log(blog);
+const Blog = ({ blog, handleAddToBookmark, handleAddReadingTime }) => {
+
   const {
     author,
     cover,
@@ -30,7 +30,8 @@ const Blog = ({ blog }) => {
         </div>
         <div className='flex gap-2'>
           <h5 className="text-xl font-medium text-[#414141de]">{`${reading_time} min read`}</h5>
-          <button className='text-xl'><FaBookmark></FaBookmark> </button>
+          <button onClick={()=>handleAddToBookmark(blog)} className='text-2xl'><FaBookmark></FaBookmark> 
+          </button>
         </div>
       </div>
       <h2 className="text-3xl md:text-5xl/relaxed font-bold ">{excerpt} </h2>
@@ -40,7 +41,7 @@ const Blog = ({ blog }) => {
         <h4 className="space-x-5">{hashtags[2]} </h4>
       </div>
 
-      <span className="text-blue-700 text-xl font-bold underline">Mark as read</span>
+      <span onClick={()=>handleAddReadingTime(reading_time)} className="text-blue-700 text-xl font-bold "><button className='underline'>Mark as read</button></span>
     </div>
   );
 };
